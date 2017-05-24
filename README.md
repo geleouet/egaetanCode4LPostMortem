@@ -1,7 +1,7 @@
 # egaetan Code4Life PostMortem
 
 I will describe here my heuristic AI which finished 3 at the Code 4 Life competition on [codingame.com](https://www.codingame.com/home).
-
+[Sample](https://www.codingame.com/replay/228368051?utm_source=twitter&utm_medium=replay&utm_content=1341520-228368051&utm_campaign=Share%20options)
 
 ## Methodology
 I chose Java at first because it is the language I know best. I usually rewrite my code in C if needed during the contest, but this time I rewrote it in Java, in order to write more readable code.
@@ -33,6 +33,7 @@ I wrote several classes extending a basic Bag (primitive obsession hater)
 
 This helps a lot in having functions signature un-ambiguous.
 
+My bot speaks a lot, it helps when watching replays to undersantd quickly where his decision came from.
 
 ## Heuristics
 
