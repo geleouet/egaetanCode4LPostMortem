@@ -60,7 +60,7 @@ I then try to reduce the number of samples he can complete, following more or le
 If no blocking strategy, I will try to complete my samples. 
 I added a special condition to fulfill the biggest sample when the opponent was away from molecules.
 
-I mainly choose to pick molecules from the color I need the most.
+I mainly choose to pick first molecules from the color I need the most.
 
 ### Anticipation
 One of the biggest improvements in leaderboard ranking comes from anticipating. 
@@ -94,5 +94,5 @@ I wrote some tests that I execute at turn 0 in order to consume the cost of Stre
 
 In the end, I had around 2,500 lines of Java, 280 if/then/else, +100 call to stream() and still 23 TODO to complete. There was some unused or obsolete code for sure, but it is still a huge mass of code for a week of contest. Most of it could be reduced, I did write 5 different lines for each color until late and didn't rewrite lot of them. The code itself outside two or three complex functions is simple and could almost be naturally read.
 
-I found very nice the game rules, and the change in mid contest was not that bad. 
+I found very nice the game rules, and the change in mid contest was not that bad. The chat and people there, I kept it open as much as I could, maybe to much ? I didn't organize a codinghub this time, I will for sure for next context.
 I thought at the first sight, I will try some machine learning, it seems to me a genetic programming could generate a pretty good decision tree for such a problem, but I do not have enough time to try it, without either knowing if such an approach could generate a solution in a week. I would love to try it... in a multi ?
